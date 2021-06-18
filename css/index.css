@@ -1,0 +1,148 @@
+body,html{
+			margin: 0px;
+		}
+		#container{
+			width: 100%;
+            height: 500px;
+            border-top: 3px solid #28A64D;
+              border-bottom:3px solid grey;
+            }
+         #left{
+         	width: 15%;
+         	height: 500px;
+         	border-right: 3px solid #28A64D;
+         	float: left;
+
+         }
+         #right{
+         	width: 69%;
+         	height: 500px;
+         	float: right;
+            border: 0px solid black;
+            margin-right:210px;
+          }
+
+         .font{
+         	font-size: 20px;
+         	color:skyblue;
+         	text-align: center;
+         }
+
+        .img{
+        	width: 100px;
+        	height: 100px;
+        }
+        .td1
+    {
+        width: 205px;
+        height: 100px;
+        background-color:#28A64D; 
+    }
+    .font1{
+        font-size: 18px;
+        font-family: sans-serif;
+    
+    }
+    .table_admin{
+        width: 205px;
+        height: 300px;
+    }
+    .admin_img
+    {
+        border-radius:50% ;
+        width: 50px;
+        height: 50px;
+    }
+    .user
+    {
+        font-family: sans-serif;
+
+    }
+    #u-align
+    {
+        width: 122%;
+        border-bottom:2px solid grey;
+    }
+    .form-search{
+        width: 69%;
+           height: 100px;
+        border: 0px solid black;
+        margin-top:50px; 
+        margin: 0 auto;
+    }
+    .input1
+    {
+      text-align: center;
+      margin-left:200px;
+      font-size: 20px;
+      border: 2px;
+      border-style: groove;  
+     }
+     .button
+    {
+      text-align: center;
+      margin:0 auto;
+      font-size: 20px;
+      border: 1px solid black;
+      color: grey;
+     
+      border-style: inset;
+	  width:200px;
+	  height:50px;
+
+
+ }
+ .ul{
+            list-style-type: none;
+            background:black;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            }
+        li{
+            float: left;
+        }
+        li a{
+            font-size:25px;
+            text-decoration: none;
+            color: white;
+            padding: 10px 12px;
+            display:block;
+        }
+        li a:hover{
+            background: green;
+            color:black;
+            font-style: italic;
+        }
+        li a:hover:not(.active)
+        {
+            background: red;
+            color:white;
+        }
+        .active{
+            background-color:yellow;
+            color:#67A0DC;
+        }
+        .ul{
+            list-style-type: none;
+            background:black;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            width: 30%;
+            }
+        li{
+            float: left;
+        }
+        li a{
+            font-size:25px;
+            text-decoration: none;
+            color: white;
+            padding: 10px 12px;
+            display:block;
+        }
+        li a:hover{
+            background: green;
+            color:black;
+            font-style: italic;
+        }

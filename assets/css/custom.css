@@ -1,0 +1,18 @@
+#overlay {
+    background: rgba(255,255,255,0.7);
+    color: #000;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    float: left;
+    text-align: center;
+    padding-top: 20%;
+    opacity: 0.5;
+    font-size: 50px;
+    z-index: 100000;
+}
+input:required, input[type='file']:required, input[type='password']:required, select:required, textarea:required {
+    box-shadow:none;
+}
